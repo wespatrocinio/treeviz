@@ -4,7 +4,7 @@ Decision Tree visualization for Spark ML (version 1.6.2) and Scikit-learn decisi
 
 ## Spark ML
 
-```
+```python
 from pyspark.ml import Pipeline
 from pyspark.ml.feature import VectorAssembler, StringIndexer
 from pyspark.ml.classification import DecisionTreeClassifier
@@ -41,7 +41,7 @@ model = pipe.fit(df_train)
 
 ## Scikit-learn
 
-```
+```python
 from sklearn import tree
 from dataviz.sklearn_tree import tree_to_json
 
